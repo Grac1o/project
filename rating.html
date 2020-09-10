@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Рейтинг</title>
+    <meta name="description" content="Эта страница с домашним заданием">
+    <meta name="keywords" content="домашнее задание, уроки программирования">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="header">
+            <div class="logo">
+                <div class="logo_text">
+                    <h1><a href="index.html">КиноМонстр</a></h1>
+                    <h2>Кино - наша страсть</h2>
+                </div>
+            </div>
+            <div class="menubar">
+                <ul class="menu">
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="films.html">Фильмы</a></li>
+                    <li><a href="#">Сериалы</a></li>
+                    <li class="selected"><a href="rating.html">Рейтинг фильмов</a></li>
+                    <li><a href="contacts.html">Контакты</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="site_content">
+            <div class="sidebar_container">
+                <div class="sidebar">
+                    <h2>Поиск</h2>
+                    <form method="POST" action="#" id="search_form">
+                        <input type="search" name="search_field" placeholder="Ваш запрос!">
+                        <input type="submit" class="btn" value="Найти">
+                    </form>
+                </div>
+
+                <div class="sidebar">
+                    <h2>Вход</h2>
+                    <form method="POST" action="#" id="login_form">
+                        <input type="text" name="login_field" placeholder="Логин">
+                        <input type="password" name="password_field" placeholder="Пароль">
+                        <input type="submit" class="btn" value="Вход">
+                        <div class="lables_passreg_text">
+                            <span><a href="#">Забыли пароль?</a></span> | <span><a href="#">Регистрация</a></span>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="sidebar">
+                    <h2>Новости</h2>
+                    <span>21.08.2020</span>
+                    <p>Мы запустили расширенный поиск</p>
+                    <a href="#">Читать</a>
+                </div>
+
+                <div class="sidebar">
+                    <h2>Рейтинг фильмов</h2>
+                    <ul>
+                        <li><a href="#">Интерстеллар</a><span class="raiting_sidebar">8.1</span></li>
+                        <li><a href="#">Безумный Макс</a><span class="raiting_sidebar">8.1</span></li>
+                        <li><a href="show.html">Мстители. Финал</a><span class="raiting_sidebar">8.1</span></li>
+                        <li><a href="#">Матрица</a><span class="raiting_sidebar">8.1</span></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="content">
+                <table>
+                    <tr>
+                        <th></th>
+                        <th>Фильмы</th>
+                        <th class="center">Год</th>
+                        <th class="center">Рейтинг</th>
+                    </tr>
+                    <tr>
+                        <td class="center"><img src="assets/img/film_1.jpg" alt="avengers"></td>
+                        <td>1.
+                            <a href="show.html">Мстители. Финал</a>
+                        </td>
+                        <td class="center">2018</td>
+                        <td class="center rating">8.1</td>
+                    </tr>
+                    <tr>
+                        <td class="center"><img src="assets/img/film_2.jpg" alt="avengers"></td>
+                        <td>2.
+                            <a href="show.html">Интерстеллар</a>
+                        </td>
+                        <td class="center">2014</td>
+                        <td class="center rating">8.0</td>
+                    </tr>
+                    <tr>
+                        <td class="center"><img src="assets/img/film_3.jpg" alt="avengers"></td>
+                        <td>3.
+                            <a href="show.html">Безумный Макс</a>
+                        </td>
+                        <td class="center">2015</td>
+                        <td class="center rating">8.5</td>
+                    </tr>
+                    <tr>
+                        <td class="center"><img src="assets/img/film_4.jpg" alt="avengers"></td>
+                        <td>4.
+                            <a href="show.html">Матрица</a>
+                        </td>
+                        <td class="center">1999</td>
+                        <td class="center rating">7.9</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>
+                <a href="#">Главная</a> |
+                <a href="#">Фильмы</a> |
+                <a href="#">Сериалы</a> |
+                <a href="#">Рейтинг фильмов</a> |
+                <a href="#">Контакты</a>
+            </p>
+            <p>grac1o.ru 2020</p>
+        </div>
+    </div>
+</body>
+
+</html>
